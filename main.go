@@ -1,9 +1,12 @@
 package main
 
 import (
+	"fmt"
 	"github.com/Kkamerunn/gofromscratch/variables"
 )
 
 func main() {
-	variables.ShowIntegers()
+	state, text := variables.ConvertToText(1330)
+	fmt.Println(state)
+	fmt.Println(text)
 }
